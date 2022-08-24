@@ -1,0 +1,7 @@
+{"intents": [
+  {"tag":"work",
+  "patterns": ["hey","aye","what's up?","how's it going","hello there","hey amigo","hi"],
+    "responses":["what can i do for u master!!!","i am here","whats up?"],
+            "context_set": ""
+  }
+  ]}

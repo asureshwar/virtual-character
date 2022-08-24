@@ -1,0 +1,99 @@
+{"intents": [
+  {"tag":"greeting",
+  "patterns": ["hey","aye","what's up?","how's it going","hello there","hey amigo","hi"],
+    "responses":["what can i do for u master!!!","i am here","whats up?"],
+            "context_set": ""
+  },
+    {"tag":"create_note",
+  "patterns": ["make a note","note me down","write a note","create a note"],
+    "responses":[""],
+              "context_set": ""
+  },
+
+    {"tag":"add_todo",
+  "patterns": ["make a todo","create a todo","add a new todo","new item in my todo list"],
+    "responses":[""],
+              "context_set": ""
+  },
+    {"tag":"show_todos",
+  "patterns": ["show my todos","what are my todos","what is on my todo list"],
+    "responses":[""],
+        "context_set": ""
+  },
+
+    {"tag":"show_notes",
+  "patterns": ["show my notes","what are my notes","what is on my notes"],
+    "responses":[""],
+        "context_set": ""
+  },
+    {"tag":"exit",
+  "patterns": ["adios","quit","stop","terminate"],
+    "responses":[""],
+        "context_set": ""
+  },
+      {"tag":"shakespeare",
+  "patterns": ["generate a shakespeare text","give me shakespeare","shakespeare me "],
+    "responses":[""],
+        "context_set": ""
+  },
+      {"tag":"favorite_quote",
+  "patterns": ["say my favorite quote","give me my favorite poem"],
+    "responses":[""],
+        "context_set": ""
+  },
+    {"tag":"praise",
+  "patterns": ["praise"],
+    "responses":[""],
+        "context_set": ""
+  },
+    {"tag":"sentiment",
+  "patterns": ["check my sentiment","check my day","how was my day","how's my mood"],
+    "responses":[""],
+        "context_set": ""
+  },
+      {"tag":"work",
+  "patterns": ["i am going to do something today","doing something","cheer me up","work"],
+    "responses":[""],
+        "context_set": ""
+  },
+      {"tag":"holdings",
+  "patterns": ["what are my holdings","stock ","crypto","investments"],
+    "responses":["3000 in leshaind ","1800 in cardano"],
+        "context_set": ""
+  },
+      {"tag":"quotes",
+  "patterns": ["quotes","give me quotes","lest hear some quotes ","sayings"],
+    "responses":[""],
+        "context_set": ""
+  },
+      {"tag":"marcus",
+  "patterns": ["give me marcus","marcus","aurelius"],
+    "responses":["If it is not right do not do it; if it is not true do not say it.","“People are not disturbed by things, but by the views they take of them.”","“Don’t go on discussing what a good person should be. Just be one.”","“When you arise in the morning think of what a privilege it is to be alive, to think, to enjoy, to love…” "],
+        "context_set": ""
+  },
+    {"tag":"seneca",
+  "patterns": ["seneca","give me seneca"],
+    "responses":["“It’s not because things are difficult that we dare not venture. It’s because we dare not venture that they are difficult.”","“We suffer more often in imagination than in reality.”","“He who is brave is free.”","“The whole future lies in uncertainty: live immediately.” ","“If a man knows not to which port he sails, no wind is favorable.”"],
+        "context_set": ""
+  },
+    {"tag":"brave",
+  "patterns": ["make me brave","i am going to do","make me ready for ","courage"],
+    "responses":[""],
+              "context_set": ""
+  },
+      {"tag":"introduce",
+  "patterns": ["introduce yourself","janeaway someone wants to know u"],
+    "responses":[""],
+                "context_set": ""
+        },
+        {"tag":"stocks",
+  "patterns": ["stocks","stock prices ", "crypto prices now"],
+    "responses":[""],
+                  "context_set": ""
+        },
+        {"tag":"news",
+  "patterns": ["india news","tell me today's news ", "today's news","current report on india"],
+    "responses":[""],
+                  "context_set": ""
+        }
+]}
